@@ -58,15 +58,10 @@ expenses_df['Amount'] = expenses_df['Amount'].fillna(0)
 fig = px.pie(expenses_df, values='Amount', names='Category', title='Monthly Expense Breakdown')
 st.plotly_chart(fig)
 
-# Debt Management
-st.header("Debt Management")
-
-# Add tools to manage and track debts
-
 # Goal Tracking
 st.header("Goal Tracking")
 
-# Add tools to set financial goals and track progress
+# Add tools to set financial goals and track progress (ky)
 
 # Retirement Planning
 st.header("Retirement Planning")
